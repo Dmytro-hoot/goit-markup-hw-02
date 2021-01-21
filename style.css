@@ -3,9 +3,14 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-li {
+.list {
   list-style-type: none; /* Убираем маркеры */
 }
+
+.link {
+  text-decoration: none;
+}
+
 ul {
   margin-left: 0; /* Отступ слева в браузере IE и Opera */
   padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
@@ -104,6 +109,9 @@ ul {
   letter-spacing: 0.06em;
 
   /* color: #FFFFFF; */
+
+  background: #f5f4fa;
+  border-radius: 4px;
 }
 
 .prop-tittle {
@@ -199,8 +207,7 @@ ul {
   /* color: rgba(255, 255, 255, 0.6); */
 }
 
-.nav-portfolio-links {
-  text-decoration: none;
+.nav-portfolio-btn {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -212,10 +219,12 @@ ul {
   letter-spacing: 0.03em;
 
   color: #212121;
+  border: none;
+  background-color: transparent;
 }
 
-.nav-portfolio-links:hover,
-.nav-portfolio-links:focus {
+.nav-portfolio-btn:hover,
+.nav-portfolio-btn:focus {
   color: #ffffff;
   background: #2196f3;
   /* shadow-middle */
